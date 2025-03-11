@@ -1,0 +1,77 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOHsypONxy7bWDC44YHSjS3",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Maihrendson/Aulas-de-Programa-o/blob/main/C%C3%B3digo%20Test\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 21,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SfvR23X94wXy",
+        "outputId": "85b66ef0-ebb8-47c7-dfb7-0cf645e0700e"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Qual valor da compra? 546\n",
+            "109.2\n"
+          ]
+        }
+      ],
+      "source": [
+        "Valor_compra = int(input('Qual valor da compra? '))\n",
+        "\n",
+        "Valor_compra = 546\n",
+        "\n",
+        "if Valor_compra >= 1000:\n",
+        "  print(Valor_compra * 0.3)\n",
+        "elif Valor_compra >= 500:\n",
+        "  print(Valor_compra * 0.2)\n",
+        "elif Valor_compra >= 100:\n",
+        "  print(Valor_compra * 0.1)\n",
+        "else:\n",
+        "  print('Sem desconto otário')"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from google.colab import drive\n",
+        "drive.mount('/content/drive')"
+      ],
+      "metadata": {
+        "id": "2kRKOMGy_R0U"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
